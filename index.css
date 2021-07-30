@@ -16,7 +16,7 @@ min-width: 250px;
 }
 
 /* background Image*/
-.backimg {
+/* .backimg  {
     background: url('backimg.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -26,6 +26,15 @@ min-width: 250px;
     position: fixed;
     z-index: -10;
     top: 0;
+} */
+.backimg img {
+    width: 100%;
+	height: 100vh;
+	object-fit: cover;
+	object-position: center;
+    position: fixed;
+    top: 0;
+    z-index: -10;
 }
 /* to do list */
 .todolist {
