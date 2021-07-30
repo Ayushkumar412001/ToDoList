@@ -17,7 +17,7 @@ min-width: 250px;
 
 /* background Image*/
 .backimg {
-    background: url('ToDoList/backimg.jpg');
+    background: url('backimg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
